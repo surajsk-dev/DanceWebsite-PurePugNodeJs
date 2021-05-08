@@ -6,7 +6,10 @@ html
             include  ../static/style.css
     body 
         nav#navbar
-            ul 
+            ul
+                div#logo
+                    img(src="/static/img/logo.png", alt="Logo")
+                    | Dance Website
                 li #[a(href='/') Home] 
                 li #[a(href='/') About] 
                 li #[a(href='/') Services] 
@@ -22,15 +25,36 @@ html
             h2 Our Mission 
             div.card 
                 h3 Heading h3
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/1-Resize.png", alt="")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetuLorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, quibusdam.
             div.card 
                 h3 Heading h3
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/2-Resize.png", alt="")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, quibusdam.
             div.card 
                 h3 Heading h3
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/3-Resize.png", alt="")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, quibusdam.
+       
         section#sponsorsSection
-            | section for sponsors
+            h2 Our Sponsors
+            div#sponsors 
+                img(src="/static/img/htmlcss.png", alt="Logo" Class="spImage")
+                img(src="/static/img/nodejs.png", alt="Logo" Class="spImage")
+                img(src="/static/img/expressjs.png", alt="Logo" Class="spImage")
+                img(src="/static/img/pug.png", alt="Logo" Class="spImage")
         
         footer#footer 
-             | our footer here
+             | Copyright © 2021 Dance Website | All rights reserved
 
         script 
             include ../static/index.js
