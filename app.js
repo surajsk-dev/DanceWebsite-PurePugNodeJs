@@ -20,7 +20,11 @@ app.set('views',path.join(__dirname,'views'));
 
 // END POINT
 app.get('/',(req,res)=>{
-    res.status(200).render('index.pug');
+    res.status(200).render('home.pug');
+});
+
+app.get('/contact',(req,res)=>{
+    res.status(200).render('contact.pug');
 });
 
 // START THE SERVER

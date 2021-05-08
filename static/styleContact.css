@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap');
+
+#headerContact{
+    background: url(/static/img/contact-bg.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    height: 50vh;
+}
+
+#headerContact h1{
+    font-size: 60px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+h2{
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.myInput{
+    padding: 10px;
+    margin: 10px 0px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#btn{
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 2px solid black;
+    cursor: pointer;
+
+
+}
