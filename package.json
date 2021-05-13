@@ -25,6 +25,7 @@
   "homepage": "https://github.com/surajsoankamble/DanceWebsite-PurePugNodeJs#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.12.8",
     "pug": "^3.0.2"
   }
 }
